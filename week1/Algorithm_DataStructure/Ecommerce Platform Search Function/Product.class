@@ -1,0 +1,15 @@
+class Product {
+   int productId;
+   String productName;
+   String category;
+
+   public Product(int var1, String var2, String var3) {
+      this.productId = var1;
+      this.productName = var2;
+      this.category = var3;
+   }
+
+   public String toString() {
+      return "Product ID: " + this.productId + ", Name: " + this.productName + ", Category: " + this.category;
+   }
+}
